@@ -27,6 +27,8 @@ pytorch 1.11.0
 ```export CHECKPOINT_DIR="path to where pretrained view classifier and MOCO pretrained weights```
 (e.g.,  '/ab/cd/SAMIL/Echo_data/model_checkpoints/')
 
+We releases the pretrained view classifiers and MOCO pretrained checkpoints [Link here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us) 
+
 ### Example
 Running SAMIL with study-level pretraining, go to [runs/SAMIL](runs/SAMIL)
 ``` bash launch_experiment.sh run_here ```
