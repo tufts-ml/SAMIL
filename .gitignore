@@ -1,3 +1,13 @@
+#folders
+experiments/
+
+
+#file
+saintycheck.ipynb
+*.pt
+*.pth.tar
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
