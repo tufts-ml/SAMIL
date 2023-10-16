@@ -1,5 +1,5 @@
 # SAMIL
-Code for the paper Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning
+Code for the paper Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning (MLHC'23)
 
 # Setup
 ### Prepare datasets
@@ -38,4 +38,9 @@ Running SAMIL with study-level pretraining, go to [runs/SAMIL](runs/SAMIL)
 While the focus of our paper is reproducibility, ultimately exact comparison to the results in our paper will be conflated by subtle differences such as the version of Pytorch etc (see https://pytorch.org/docs/stable/notes/randomness.html for more detail).
 
 ## Citing this work
-TODO
+@article{huang2023detecting,
+  title={Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning},
+  author={Huang, Zhe and Wessler, Benjamin S and Hughes, Michael C},
+  journal={arXiv preprint arXiv:2306.00003},
+  year={2023}
+}
