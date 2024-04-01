@@ -4,6 +4,7 @@ experiments/
 
 #file
 saintycheck.ipynb
+hashing.ipynb
 *.pt
 *.pth.tar
 
