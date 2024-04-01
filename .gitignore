@@ -7,7 +7,7 @@ saintycheck.ipynb
 hashing.ipynb
 *.pt
 *.pth.tar
-model_checkpoints.zip
+#model_checkpoints.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
