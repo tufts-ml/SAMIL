@@ -80,7 +80,7 @@ do
 for T in 0.03 0.05 0.1
 do
     export T=$T
-    
+    echo "Creating Train Dir: $train_dir"
     mkdir -p $train_dir
 
 
@@ -90,7 +90,7 @@ do
 
     elif [[ $ACTION_NAME == 'run_here' ]]; then
         ## Use this line to just run interactively
-        bash ./do_experiment.slurm
+        bash "$ROOT_DIR/runs/SAMIL/do_experiment.slurm"
     fi
 
 

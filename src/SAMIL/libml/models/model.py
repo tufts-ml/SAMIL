@@ -14,7 +14,7 @@ class SAMIL(nn.Module):
         self.num_classes = num_classes
         
         self.feature_extractor_part1 = nn.Sequential(
-#             nn.Conv2d(1, 20, kernel_size=5),
+            # nn.Conv2d(1, 20, kernel_size=5),
             nn.Conv2d(3, 20, kernel_size=5),
             nn.ReLU(),
             nn.MaxPool2d(2, stride=2),
