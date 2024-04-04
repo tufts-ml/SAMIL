@@ -1,0 +1,9 @@
+name: samil
+channels:
+  - defaults
+dependencies:
+  - cudatoolkit=11.3
+  - pytorch==1.11.0
+  - torchaudio==0.11.0
+  - torchvision==0.12.0
+prefix: C:\Users\c.thomas\miniconda3\envs\samil
