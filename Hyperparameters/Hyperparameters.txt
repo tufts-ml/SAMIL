@@ -1,0 +1,19 @@
+Split1:
+lr: 0.0008
+wd: 0.0001
+T: 0.1
+Lambda View Reg: 15
+
+
+Split2:
+lr: 0.0005
+wd: 0.0001
+T: 0.05
+Lambda View Reg: 20
+
+Split3:
+lr:0.0005
+wd:0.0010
+T: 0.1
+Lambda View Reg:20
+

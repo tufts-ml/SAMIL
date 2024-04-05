@@ -29,6 +29,9 @@ pytorch 1.11.0
 
 We releases the pretrained view classifiers and MOCO pretrained checkpoints [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us) 
 
+### Hyperparameters
+Please see [Hyperparameters/](Hyperparameters) for reference. You can also tried searching hyperparameter yourself.
+
 ### Example
 Running SAMIL with study-level pretraining, go to [runs/SAMIL](runs/SAMIL)
 ``` bash launch_experiment.sh run_here ```
