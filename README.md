@@ -32,9 +32,9 @@ We releases the pretrained view classifiers and MOCO pretrained checkpoints [her
 You can montior the training using tensorborad, and are expected to see training curves like this:
 
 <p float="left">
-  <img src="training_curves/split2/img1.png" alt="Image 1" width="30%">
-  <img src="training_curves/split2/img2.png" alt="Image 2" width="30%">
-  <img src="training_curves/split2/img3.png" alt="Image 3" width="30%">
+  <img src="training_curves/split2/train.png" alt="Train" width="30%">
+  <img src="training_curves/split2/val.png" alt="Val" width="30%">
+  <img src="training_curves/split2/test.png" alt="Test" width="30%">
 </p>
 
 ### Hyperparameters
