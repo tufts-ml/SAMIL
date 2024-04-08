@@ -27,7 +27,15 @@ pytorch 1.11.0
 ```export CHECKPOINT_DIR="path to where pretrained view classifier and MOCO pretrained weights```
 (e.g.,  '/ab/cd/SAMIL/model_checkpoints/')
 
-We releases the pretrained view classifiers and MOCO pretrained checkpoints [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us) 
+We releases the pretrained view classifiers and MOCO pretrained checkpoints [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us). We also released the trained checkpoint (retrained)
+
+You can montior the training using tensorborad, and are expected to see training curves like this:
+
+<p float="left">
+  <img src="training_curves/split2/img1.png" alt="Image 1" width="30%">
+  <img src="training_curves/split2/img2.png" alt="Image 2" width="30%">
+  <img src="training_curves/split2/img3.png" alt="Image 3" width="30%">
+</p>
 
 ### Hyperparameters
 Please see [Hyperparameters/](Hyperparameters) for reference. You can also tried searching hyperparameter yourself.
@@ -39,6 +47,8 @@ Running SAMIL with study-level pretraining, go to [runs/SAMIL](runs/SAMIL)
 
 ### A note on reproducibility
 While the focus of our paper is reproducibility, ultimately exact comparison to the results in our paper will be conflated by subtle differences such as the version of Pytorch etc (see https://pytorch.org/docs/stable/notes/randomness.html for more detail).
+
+From our experiment, we notice that there might be a few percentage variation from run to run (This is especially the case for Split1.)
 
 ## Citing this work
 @article{huang2023detecting,
