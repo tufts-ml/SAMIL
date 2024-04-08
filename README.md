@@ -27,8 +27,7 @@ pytorch 1.11.0
 ```export CHECKPOINT_DIR="path to where pretrained view classifier and MOCO pretrained weights```
 (e.g.,  '/ab/cd/SAMIL/model_checkpoints/')
 
-We releases the pretrained view classifiers and MOCO pretrained checkpoints [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us). We also released the trained checkpoint (retrained)
-
+We releases the pretrained view classifiers and MOCO pretrained checkpoints and the traning curves of SAMIL (retrained, for your reference) [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us). 
 You can montior the training using tensorborad, and are expected to see training curves like this:
 
 <p float="left">
