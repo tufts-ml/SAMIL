@@ -48,7 +48,7 @@ Running SAMIL with study-level pretraining, go to [runs/SAMIL](runs/SAMIL)
 ### A note on reproducibility
 While the focus of our paper is reproducibility, ultimately exact comparison to the results in our paper will be conflated by subtle differences such as the version of Pytorch etc (see https://pytorch.org/docs/stable/notes/randomness.html for more detail).
 
-From our experiment, we notice that there might be a few percentage variation from run to run (This is especially the case for Split1. Possibly due to training signals in MIL are noisy. Another possiblity is that small validation set size might caused the selection of checkpoint at maximum validation performance not always correspond to good test performance.)
+From our experiment, we notice that there might be a few percentage variation from run to run. This is especially the case for Split1. Split0 and Split2 has less varation. (Possibly due to training signals in MIL are noisy. Another possiblity is that small validation set size might caused the selection of checkpoint at maximum validation performance not always correspond to good test performance.)
 
 ## Citing this work
 @article{huang2023detecting,
