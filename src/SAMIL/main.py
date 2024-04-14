@@ -700,13 +700,7 @@ def main(args, brief_summary):
 
     with open(os.path.join(args.experiment_dir, "brief_summary.json"), "w") as f:
         json.dump(brief_summary, f)
-
-
-        
     
-    
-    
-            
 if __name__=='__main__':
     
     args = parser.parse_args()

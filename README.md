@@ -1,3 +1,8 @@
+# Google Colab
+Here is a [link](https://colab.research.google.com/drive/1dohxqPx9orWh2uws8TK9KYgeYbOaOI2R) to our notebook. A @illinois.edu email
+is required to access the notebook along with the Google Drive data. The notebook and additional code can also be found in the notebook folder in 
+this repo.
+
 # SAMIL
 Code for the paper Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning (MLHC'23)
 

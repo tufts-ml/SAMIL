@@ -54,7 +54,7 @@ export data_info_dir=$DATA_INFO_DIR
 export data_dir=$DATA_DIR
 
 
-for data_seed in 0 1 2
+for data_seed in 0 #1 2
 do
     
     export data_seed=$data_seed
@@ -64,20 +64,20 @@ do
     export test_PatientStudy_list_path="$data_info_dir/DataPartition/seed$data_seed/$development_size/FullyLabeledSet_studies/test_studies.csv"
  
 
-for lr in 5e-5 8e-4
+for lr in 0.0005 #5e-5 8e-4
 do
     export lr=$lr
     
-for wd in 1e-4 1e-3
+for wd in 0.0001 #1e-4 1e-3
 do 
     export wd=$wd
 
-for lambda_ViewRegularization in 5 15 20
+for lambda_ViewRegularization in 20 #5 15 20
 do
     export lambda_ViewRegularization=$lambda_ViewRegularization
 
 
-for T in 0.03 0.05 0.1
+for T in 0.1 #0.03 0.05 0.1
 do
     export T=$T
     echo "Creating Train Dir: $train_dir"

@@ -202,8 +202,8 @@ def eval_model(args, data_loader, raw_model, ema_model, epoch):
 
 
 def calculate_balanced_accuracy(prediction, true_target, return_type = 'only balanced_accuracy'):
-    
-    confusion_matrix = sklearn_cm(true_target, prediction.argmax(1))
+    soft = F.softmax(torch.Tensor(prediction), dim=1)
+    confusion_matrix = sklearn_cm(true_target, torch.argmax(soft, dim=1).numpy())
     n_class = confusion_matrix.shape[0]
     print('Inside calculate_balanced_accuracy, {} classes passed in'.format(n_class), flush=True)
 
