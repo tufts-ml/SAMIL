@@ -1,0 +1,1 @@
+Model checkpoints retrained on 2025. The original model checkpoints used in the paper were accidentally lost when organizing the codebase. These new checkpoints represent similar performance. 
