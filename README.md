@@ -14,7 +14,7 @@ Follow the instructions here: https://conda.io/projects/conda/en/latest/user-gui
 pytorch 1.11.0
 
 # Running experiments
-We releases the trained SAMIL model checkpoints [model_ckpt].
+We releases the trained SAMIL model checkpoints [model_ckpt](https://github.com/tufts-ml/SAMIL/tree/main/Model_ckpt).
 The pretrained view classifiers and MOCO pretrained checkpoints and the traning curves of SAMIL [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us). 
 
 ### Define the environment variable
