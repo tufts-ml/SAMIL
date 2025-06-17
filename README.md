@@ -14,6 +14,9 @@ Follow the instructions here: https://conda.io/projects/conda/en/latest/user-gui
 pytorch 1.11.0
 
 # Running experiments
+We releases the trained SAMIL model checkpoints [here][(https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us](https://github.com/tufts-ml/SAMIL/tree/main/Model_ckpt)).
+The pretrained view classifiers and MOCO pretrained checkpoints and the traning curves of SAMIL [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us). 
+
 ### Define the environment variable
 ```export ROOT_DIR="paths to this repo" ```
 (e.g.,  '/ab/cd/SAMIL')
@@ -27,7 +30,7 @@ pytorch 1.11.0
 ```export CHECKPOINT_DIR="path to where pretrained view classifier and MOCO pretrained weights```
 (e.g.,  '/ab/cd/SAMIL/model_checkpoints/')
 
-We releases the pretrained view classifiers and MOCO pretrained checkpoints and the traning curves of SAMIL (retrained, for your reference) [here](https://tufts.box.com/s/c5w8123j7h3dpls75jye1363uh8qv8us). 
+
 You can montior the training using tensorborad, and are expected to see training curves like this:
 
 <p float="left">
